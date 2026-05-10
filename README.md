@@ -25,15 +25,9 @@ Source markdown lives under `src/`:
 
 After editing, run `npm run build` locally to verify, then push to `main`. Azure Static Web Apps will rebuild and deploy automatically.
 
-## Brackets to fill before the first publish
+## Brackets
 
-The Privacy Policy and Terms still contain `[BRACKETED]` placeholders. Fill these in `src/privacy/index.md` and `src/terms/index.md` before the first deploy:
-
-- `[YYYY-MM-DD when you publish this]` &mdash; effective date
-- `[YYYY-MM-DD]` &mdash; last-updated date
-- `[Eric: pick your Azure region ...]` (Privacy Policy section 4) &mdash; e.g. `Canada Central` or `East US`
-- `[CHOSEN US ARBITRATION SEAT ...]` (Terms section 17) &mdash; e.g. `Delaware` (consult a lawyer if uncertain)
-- Any other `[BRACKETED]` text not listed above &mdash; grep the source files to make sure none are missed
+All `[BRACKETED]` placeholders in `src/privacy/index.md` and `src/terms/index.md` have been filled in for v1.0 (operator: Eric Vicente Zepeda Juarez, sole proprietor in Mesa, Arizona; Azure region: West US 3; governing law: Arizona; arbitration seat: Phoenix, AZ via AAA). If you fork this scaffold for a new app, grep the markdown for `[` to surface anything that needs replacing.
 
 ## Bumping the consent version
 

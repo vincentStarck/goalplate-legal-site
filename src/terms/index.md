@@ -7,8 +7,8 @@
 > `GoalPlate/src/context/ConsentContext.tsx`) whenever you change anything
 > material in this document.
 
-**Effective date:** [YYYY-MM-DD when you publish this]
-**Last updated:** [YYYY-MM-DD]
+**Effective date:** 2026-05-10
+**Last updated:** 2026-05-10
 **Terms version:** 1.0
 
 ---
@@ -128,7 +128,7 @@ TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL WE BE LIABLE
 - LOSS OF PROFITS, DATA, GOODWILL, OR ANTICIPATED SAVINGS
 - ANY HEALTH EFFECT, ALLERGIC REACTION, OR PHYSICAL HARM ARISING FROM YOUR USE OF AI-GENERATED CONTENT
 
-OUR AGGREGATE LIABILITY TO YOU FOR ANY CLAIM ARISING FROM OR RELATED TO THE SERVICE IS LIMITED TO THE GREATER OF (A) THE AMOUNT YOU PAID US IN SUBSCRIPTION FEES IN THE TWELVE (12) MONTHS PRECEDING THE EVENT GIVING RISE TO THE CLAIM, OR (B) **CAD $100**.
+OUR AGGREGATE LIABILITY TO YOU FOR ANY CLAIM ARISING FROM OR RELATED TO THE SERVICE IS LIMITED TO THE GREATER OF (A) THE AMOUNT YOU PAID US IN SUBSCRIPTION FEES IN THE TWELVE (12) MONTHS PRECEDING THE EVENT GIVING RISE TO THE CLAIM, OR (B) **USD $100**.
 
 Some jurisdictions do not allow these limits; in those jurisdictions, our liability is limited to the maximum extent permitted.
 
@@ -138,17 +138,19 @@ You agree to indemnify and hold us harmless from any claims, damages, losses, an
 
 ## 17. Dispute resolution
 
-### For users in Canada and most jurisdictions
+You and we agree to resolve any dispute arising out of or relating to these Terms or the Service through **binding arbitration** administered by the American Arbitration Association ("AAA") under its Consumer Arbitration Rules, **seated in Phoenix, Arizona, USA**. Arbitration may be conducted remotely (by video or telephone) at the request of either party.
 
-Any dispute will be resolved in the courts of **[CHOSEN PROVINCE — e.g. Quebec]**, in accordance with section 18.
+Arbitration will be on an **individual basis only** — **YOU WAIVE THE RIGHT TO PARTICIPATE IN A CLASS ACTION, COLLECTIVE ACTION, OR CLASS-WIDE ARBITRATION**.
 
-### For users in the United States
+You may opt out of this arbitration agreement within **30 days** of first accepting these Terms by emailing **legal@goalplate.app** with the subject line "Arbitration opt-out". If you opt out, disputes between you and us will be resolved in the state or federal courts located in **Maricopa County, Arizona** (see section 18).
 
-You and we agree to resolve any dispute through binding arbitration administered by the American Arbitration Association under its Consumer Arbitration Rules, in **[CHOSEN US ARBITRATION SEAT — typically Delaware or your business state]**. Arbitration will be on an individual basis only — **YOU WAIVE THE RIGHT TO PARTICIPATE IN A CLASS ACTION OR CLASS-WIDE ARBITRATION**. You may opt out of this arbitration agreement within 30 days of accepting these Terms by emailing legal@goalplate.app with the subject line "Arbitration opt-out". Either party may bring small-claims court actions individually.
+Either party may bring an **individual claim in small-claims court** in their state or county of residence. Either party may also seek **injunctive or equitable relief** in court to prevent infringement of intellectual-property rights or unauthorized use of the Service.
+
+This section does not apply where mandatory consumer-protection laws of your jurisdiction (for example EU/EEA or UK) prohibit pre-dispute arbitration agreements with consumers; in those cases section 18 applies.
 
 ## 18. Governing law
 
-These Terms are governed by the laws of the **Province of [PROVINCE — e.g. Quebec]**, Canada, without regard to its conflict-of-law rules. The United Nations Convention on Contracts for the International Sale of Goods does not apply.
+These Terms are governed by the laws of the **State of Arizona, USA**, without regard to its conflict-of-law rules. Subject to section 17 (mandatory arbitration), the state and federal courts located in **Maricopa County, Arizona** have exclusive jurisdiction over any dispute that is not subject to arbitration. The United Nations Convention on Contracts for the International Sale of Goods does not apply.
 
 If you live in the EU, UK, or another jurisdiction whose mandatory consumer-protection laws override the law chosen above, those mandatory laws apply to you despite this section.
 

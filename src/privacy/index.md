@@ -7,8 +7,8 @@
 > and `GoalPlate/src/context/ConsentContext.tsx`) when you change anything
 > material in this document.
 
-**Effective date:** [YYYY-MM-DD when you publish this]
-**Last updated:** [YYYY-MM-DD]
+**Effective date:** 2026-05-10
+**Last updated:** 2026-05-10
 **Policy version:** 1.0
 
 ---
@@ -73,7 +73,7 @@ GoalPlate runs on third-party infrastructure. Each subprocessor sees only the da
 
 | Subprocessor | What they see | Their purpose | Where |
 |---|---|---|---|
-| **Microsoft Azure** (Cosmos DB, Functions, Application Insights, Azure OpenAI) | All of your account, goal, recipe, and meal-plan data; recipe prompts and AI completions | Hosting, compute, AI inference | [Eric: pick your Azure region — e.g. Canada Central / East US] |
+| **Microsoft Azure** (Cosmos DB, Functions, Application Insights, Azure OpenAI) | All of your account, goal, recipe, and meal-plan data; recipe prompts and AI completions | Hosting, compute, AI inference | West US 3 (Phoenix, Arizona, USA) |
 | **Google Firebase** (Authentication, Cloud Messaging) | Email, Firebase UID, push tokens, sign-in events | Identity and push delivery | Google data centres (multiple regions) |
 | **RevenueCat** | A pseudonymous user ID, subscription tier, transaction events from the stores | Subscription management and webhooks | United States |
 | **Apple** (Sign in with Apple, App Store) | Apple ID identifier, payment events for App Store purchases | Identity and billing | Apple data centres |
@@ -84,7 +84,7 @@ We do not sell your data, lend it, share it for advertising, or transfer it to a
 
 ## 5. International transfers
 
-Depending on which Azure region you are routed to and where our subprocessors operate, your data may be processed outside your country (including in the United States and the European Union). When we transfer data out of jurisdictions with stricter rules (e.g. EU/EEA, UK, Quebec), we rely on the standard contractual clauses or the equivalent mechanism each subprocessor publishes.
+GoalPlate operates from the United States and primarily processes data in the United States (Microsoft Azure West US 3). Some subprocessors operate in additional regions (see section 4). When we receive data from jurisdictions with stricter cross-border-transfer rules (EU/EEA, UK, California), we rely on the standard contractual clauses or the equivalent mechanism each subprocessor publishes.
 
 ## 6. How long we keep your data
 
@@ -107,9 +107,9 @@ Depending on where you live, you have some or all of the following rights:
 - **Portability** — request an export of your data in a machine-readable format
 - **Withdraw consent** — disable specific notifications in Settings, or delete your account to revoke all consents at once
 - **Object** — object to legitimate-interest processing
-- **Complaint** — lodge a complaint with your data protection authority. In Canada, that's the [Office of the Privacy Commissioner](https://www.priv.gc.ca/) (federal) or the [Commission d'accès à l'information du Québec](https://www.cai.gouv.qc.ca/) (Quebec). In the EU, your national DPA.
+- **Complaint** — lodge a complaint with the relevant authority in your jurisdiction. In California, that's the [California Privacy Protection Agency](https://cppa.ca.gov/). In the EU/EEA, your national data protection authority. The United States as a whole does not have a comparable federal authority for general consumer privacy complaints.
 
-To exercise a right, email **privacy@goalplate.app**. We will respond within the time required by your local law (30 days under PIPEDA / GDPR; 45 days under CCPA).
+To exercise a right, email **privacy@goalplate.app**. We will respond within the time required by your local law (45 days under CCPA, 30 days under GDPR).
 
 ## 8. Children's privacy
 

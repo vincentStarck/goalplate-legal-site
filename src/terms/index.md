@@ -19,7 +19,7 @@ By creating an account, signing in, or otherwise using GoalPlate (the "app", "Se
 
 ## 2. Who we are
 
-GoalPlate is operated by **[LEGAL ENTITY NAME — e.g. "GoalPlate Inc." or your full legal name]** ("we", "us", "our"). You can reach us at **support@goalplate.app**.
+GoalPlate is operated by **Eric Vicente Zepeda Juarez, operating as GoalPlate** (a sole proprietor; not yet incorporated) ("we", "us", "our"). You can reach us at **support@goalplate.app**.
 
 ## 3. What GoalPlate is
 

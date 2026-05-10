@@ -29,7 +29,6 @@ After editing, run `npm run build` locally to verify, then push to `main`. Azure
 
 The Privacy Policy and Terms still contain `[BRACKETED]` placeholders. Fill these in `src/privacy/index.md` and `src/terms/index.md` before the first deploy:
 
-- `[LEGAL ENTITY NAME ...]` &mdash; your full legal name (sole proprietor) or registered company name
 - `[YYYY-MM-DD when you publish this]` &mdash; effective date
 - `[YYYY-MM-DD]` &mdash; last-updated date
 - `[Eric: pick your Azure region ...]` (Privacy Policy section 4) &mdash; e.g. `Canada Central` or `East US`

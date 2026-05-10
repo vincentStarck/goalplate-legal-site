@@ -1,0 +1,12 @@
+{
+  "name": "goalplate-legal-site",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Privacy Policy + Terms of Service for goalplate.app",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "devDependencies": {
+    "marked": "^14.1.0"
+  }
+}

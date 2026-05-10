@@ -8,6 +8,7 @@ const ASSETS_SRC = path.join(ROOT, 'assets');
 const DIST = path.join(ROOT, 'dist');
 
 const template = fs.readFileSync(path.join(SRC, 'template.html'), 'utf-8');
+const inlineCss = fs.readFileSync(path.join(ASSETS_SRC, 'styles.css'), 'utf-8');
 
 const routes = [
   { md: 'index.md',           out: 'index.html',           title: 'GoalPlate &mdash; Legal' },
@@ -38,6 +39,7 @@ for (const route of routes) {
   const content = marked.parse(md);
   const html = template
     .replace('{{TITLE}}', route.title)
+    .replace('{{INLINE_CSS}}', inlineCss)
     .replace('{{CONTENT}}', content);
   const outPath = path.join(DIST, route.out);
   fs.mkdirSync(path.dirname(outPath), { recursive: true });

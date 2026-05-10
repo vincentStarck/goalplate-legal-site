@@ -9,17 +9,17 @@
 </head>
 <body>
   <header class="site-header">
-    <a href="/" class="brand">GoalPlate</a>
+    <a href="{{HOME}}" class="brand">GoalPlate</a>
     <nav class="site-nav">
-      <a href="/privacy">Privacy</a>
-      <a href="/terms">Terms</a>
+      <a href="{{PRIVACY}}">Privacy</a>
+      <a href="{{TERMS}}">Terms</a>
     </nav>
   </header>
   <main class="content">
     {{CONTENT}}
   </main>
   <footer class="site-footer">
-    <p>&copy; <span id="year">2026</span> GoalPlate &middot; <a href="/privacy">Privacy</a> &middot; <a href="/terms">Terms</a></p>
+    <p>&copy; <span id="year">2026</span> GoalPlate &middot; <a href="{{PRIVACY}}">Privacy</a> &middot; <a href="{{TERMS}}">Terms</a></p>
   </footer>
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>

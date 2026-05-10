@@ -18,6 +18,15 @@ const routes = [
 
 marked.setOptions({ gfm: true, breaks: false });
 
+// Compute the relative path from one built page to another so that the
+// rendered nav works under both file:// (local preview) and SWA in
+// production. SWA also rewrites /privacy → /privacy/index.html via
+// staticwebapp.config.json, so direct deep-links from the app stay clean.
+function relPath(fromOut, toOut) {
+  const fromDir = path.dirname(fromOut);
+  return path.relative(fromDir, toOut);
+}
+
 if (fs.existsSync(DIST)) {
   fs.rmSync(DIST, { recursive: true, force: true });
 }
@@ -36,11 +45,26 @@ if (fs.existsSync(cfg)) {
 
 for (const route of routes) {
   const md = fs.readFileSync(path.join(SRC, route.md), 'utf-8');
-  const content = marked.parse(md);
+  let content = marked.parse(md);
+
+  const homeRel = relPath(route.out, 'index.html');
+  const privacyRel = relPath(route.out, 'privacy/index.html');
+  const termsRel = relPath(route.out, 'terms/index.html');
+
+  // Rewrite intra-site absolute hrefs that appear inside markdown body
+  // (e.g. [Privacy Policy](/privacy)) to the same depth-aware relative
+  // paths used by the template's nav.
+  content = content
+    .replace(/href="\/privacy"/g, `href="${privacyRel}"`)
+    .replace(/href="\/terms"/g, `href="${termsRel}"`);
+
   const html = template
-    .replace('{{TITLE}}', route.title)
-    .replace('{{INLINE_CSS}}', inlineCss)
-    .replace('{{CONTENT}}', content);
+    .replaceAll('{{TITLE}}', route.title)
+    .replaceAll('{{INLINE_CSS}}', inlineCss)
+    .replaceAll('{{HOME}}', homeRel)
+    .replaceAll('{{PRIVACY}}', privacyRel)
+    .replaceAll('{{TERMS}}', termsRel)
+    .replaceAll('{{CONTENT}}', content);
   const outPath = path.join(DIST, route.out);
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
   fs.writeFileSync(outPath, html);

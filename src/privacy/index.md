@@ -15,7 +15,7 @@
 
 ## 1. Who we are
 
-GoalPlate (the "app", "we", "us", "our") is operated by **[LEGAL ENTITY NAME — e.g. "GoalPlate Inc." or your full legal name]**, with a contact address at **[BUSINESS ADDRESS]**. You can reach us at **privacy@goalplate.app**.
+GoalPlate (the "app", "we", "us", "our") is operated by **[LEGAL ENTITY NAME — e.g. "GoalPlate Inc." or your full legal name]**. You can reach us at **privacy@goalplate.app**.
 
 This policy explains what personal data we collect about you when you use GoalPlate, how we use it, who we share it with, how long we keep it, and the rights you have over it.
 
@@ -138,6 +138,5 @@ For minor edits (typo fixes, clarifications), we update the document without re-
 ## 12. Contact
 
 - **General questions:** privacy@goalplate.app
-- **Mailing address:** [BUSINESS ADDRESS]
 
 If you do not get a response within 30 days, you can lodge a complaint with the data protection authority in your jurisdiction (see section 7).

@@ -19,7 +19,7 @@ By creating an account, signing in, or otherwise using GoalPlate (the "app", "Se
 
 ## 2. Who we are
 
-GoalPlate is operated by **[LEGAL ENTITY NAME — e.g. "GoalPlate Inc." or your full legal name]** ("we", "us", "our"), with a contact address at **[BUSINESS ADDRESS]**. You can reach us at **support@goalplate.app**.
+GoalPlate is operated by **[LEGAL ENTITY NAME — e.g. "GoalPlate Inc." or your full legal name]** ("we", "us", "our"). You can reach us at **support@goalplate.app**.
 
 ## 3. What GoalPlate is
 
@@ -174,4 +174,3 @@ For minor edits (typo fixes, clarifications), we update the document without re-
 
 - **Support and account issues:** support@goalplate.app
 - **Legal notices:** legal@goalplate.app
-- **Mailing address:** [BUSINESS ADDRESS]

@@ -1,12 +1,5 @@
 # Privacy Policy
 
-> **Status:** DIY draft — version 1.0. Not lawyer-reviewed. Tailored to
-> GoalPlate's actual subprocessors and data flows as of 2026-05-04. Replace
-> the `[BRACKETED]` placeholders before publishing. Re-prompt consent
-> (bump `CURRENT_CONSENT_VERSION` in both `backend/data/consent_store.py`
-> and `GoalPlate/src/context/ConsentContext.tsx`) when you change anything
-> material in this document.
-
 **Effective date:** 2026-05-10
 **Last updated:** 2026-05-10
 **Policy version:** 1.0

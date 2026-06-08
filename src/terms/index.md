@@ -1,7 +1,7 @@
 # Terms of Service
 
 **Effective date:** 2026-05-10
-**Last updated:** 2026-05-10
+**Last updated:** 2026-06-08
 **Terms version:** 1.0
 
 ---
@@ -92,6 +92,10 @@ You agree not to:
 You retain all rights you have in the prompts, recipes, meal plans, and other content you create through GoalPlate ("Your Content"). By making a recipe public (publishing to the community catalogue), you grant us and other users a non-exclusive, worldwide, royalty-free license to display, distribute, and adapt that content for the purpose of operating the Service.
 
 You represent that Your Content does not infringe on any third party's rights and complies with these Terms.
+
+**Community content standards.** When you publish a recipe to the community catalogue, you agree it will not contain — and that you will not use the community feature to transmit — content that is objectionable, offensive, harassing, hateful, defamatory, sexually explicit, violent, deceptive, or otherwise inappropriate or unlawful. **We have zero tolerance for objectionable content and abusive users.**
+
+**Reporting and moderation.** You can report any published recipe, or block another user, directly in the app (via the menu on a community recipe). We review reports and act on objectionable content — typically within 24 hours — by removing it and, for repeat or serious violations, suspending or permanently terminating the responsible account. Reported content is hidden from you immediately. We may remove any published content and restrict, suspend, or terminate any account at our discretion to keep the community safe, with or without notice.
 
 ## 12. Our intellectual property
 

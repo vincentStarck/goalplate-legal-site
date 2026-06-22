@@ -14,6 +14,9 @@ const routes = [
   { md: 'index.md',           out: 'index.html',           title: 'GoalPlate &mdash; Legal' },
   { md: 'privacy/index.md',   out: 'privacy/index.html',   title: 'Privacy Policy &mdash; GoalPlate' },
   { md: 'terms/index.md',     out: 'terms/index.html',     title: 'Terms of Service &mdash; GoalPlate' },
+  // Spanish courtesy translations (English versions above remain controlling).
+  { md: 'privacy/es.md',      out: 'privacy/es/index.html', title: 'Política de Privacidad &mdash; GoalPlate' },
+  { md: 'terms/es.md',        out: 'terms/es/index.html',   title: 'Términos de Servicio &mdash; GoalPlate' },
 ];
 
 marked.setOptions({ gfm: true, breaks: false });

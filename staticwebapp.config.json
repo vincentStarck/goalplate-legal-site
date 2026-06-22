@@ -11,6 +11,8 @@
   },
   "routes": [
     { "route": "/privacy", "rewrite": "/privacy/index.html" },
-    { "route": "/terms", "rewrite": "/terms/index.html" }
+    { "route": "/terms", "rewrite": "/terms/index.html" },
+    { "route": "/privacy/es", "rewrite": "/privacy/es/index.html" },
+    { "route": "/terms/es", "rewrite": "/terms/es/index.html" }
   ]
 }

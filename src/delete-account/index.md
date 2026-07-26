@@ -4,6 +4,8 @@
 
 _Last updated: July 26, 2026_
 
+> [Leer esta página en español](/delete-account/es)
+
 ## How to delete your account in the app
 
 1. Open **GoalPlate** and sign in.

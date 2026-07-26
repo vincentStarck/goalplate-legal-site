@@ -20,6 +20,16 @@ Deletion takes effect immediately. If you signed in with Apple, we also revoke G
 
 If you no longer have the app installed or can't sign in, email us at **support@goalplate.app** from the email address associated with your account and request deletion. We will process the request and confirm within 30 days.
 
+## Delete some of your data without deleting your account
+
+You can also permanently delete individual pieces of your GoalPlate data in the app, while keeping your account:
+
+- **Saved recipes** — My Recipes → the ⋮ menu on a recipe → Remove (recipes you shared to the community can be unshared or removed everywhere)
+- **Meal plans** — Meal Plan → the ⋮ menu on a plan → Delete
+- **Goals and their check-ins** — Goals → the ⋮ menu on a goal → Delete (removes the goal and all check-ins logged on it)
+
+These deletions are immediate and permanent. For anything not covered above, email **support@goalplate.app** and we will handle the request within 30 days.
+
 ## What is deleted
 
 When you delete your account, we permanently delete all data associated with it, including:

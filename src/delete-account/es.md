@@ -20,6 +20,16 @@ La eliminación es inmediata. Si iniciaste sesión con Apple, también revocamos
 
 Si ya no tienes la app instalada o no puedes iniciar sesión, escríbenos a **support@goalplate.app** desde el correo asociado a tu cuenta y solicita la eliminación. Procesaremos la solicitud y te confirmaremos en un plazo de 30 días.
 
+## Elimina parte de tus datos sin eliminar tu cuenta
+
+También puedes eliminar de forma permanente datos individuales de GoalPlate en la app, conservando tu cuenta:
+
+- **Recetas guardadas** — Mis recetas → el menú ⋮ de una receta → Eliminar (las recetas compartidas con la comunidad se pueden dejar de compartir o eliminar por completo)
+- **Menús** — Plan de comidas → el menú ⋮ de un plan → Eliminar
+- **Metas y sus registros** — Metas → el menú ⋮ de una meta → Eliminar (elimina la meta y todos sus check-ins)
+
+Estas eliminaciones son inmediatas y permanentes. Para cualquier dato no cubierto arriba, escribe a **support@goalplate.app** y atenderemos la solicitud en un plazo de 30 días.
+
 ## Qué se elimina
 
 Al eliminar tu cuenta, borramos de forma permanente todos los datos asociados, incluyendo:

@@ -17,6 +17,10 @@ const routes = [
   // Spanish courtesy translations (English versions above remain controlling).
   { md: 'privacy/es.md',      out: 'privacy/es/index.html', title: 'Política de Privacidad &mdash; GoalPlate' },
   { md: 'terms/es.md',        out: 'terms/es/index.html',   title: 'Términos de Servicio &mdash; GoalPlate' },
+  // Account-deletion instructions — required by Google Play's Data safety form
+  // (the "Delete account URL" shown on the Play store listing).
+  { md: 'delete-account/index.md', out: 'delete-account/index.html',    title: 'Delete Your Account &mdash; GoalPlate' },
+  { md: 'delete-account/es.md',    out: 'delete-account/es/index.html', title: 'Eliminar tu cuenta &mdash; GoalPlate' },
 ];
 
 marked.setOptions({ gfm: true, breaks: false });
